@@ -1,4 +1,37 @@
-#background{
-    background-image: url("images\WebBackground.jpg");
+html {
+    background-image: url('../img/can_jam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
+    
+}
+
+#menu {
+    background-color: green;
+    overflow: hidden;
+    opacity: 50%;
+}
+
+#menu a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#menu a.active{
+    background-color: red;
+    color: white;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
 }
