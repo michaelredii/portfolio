@@ -10,20 +10,34 @@ html {
 #menu {
     background-color: green;
     overflow: hidden;
-    opacity: 50%;
 }
 
 #menu a{
-    float: left;
+    float: right;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 #menu a.active{
-    background-color: red;
-    color: white;
+    background-color: yellow;
+    color: black;
+}
+
+@font-face {
+    font-family: cairo;
+    src: url(fonts\cairo-regular-webfont.woff);
+}
+
+*{
+    font-family: cairo;
+}
+
+
+
+#tagline{
+   color: black;
+
 }
 
 #footer{
